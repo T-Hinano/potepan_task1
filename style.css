@@ -1,0 +1,18 @@
+h1 {
+  color: #364e96;
+  padding: 5px 0;
+  border-top: solid 6px #364e96;
+  border-bottom: solid 6px #364e96;
+}
+
+.before-text::before {
+  color: red;
+  font-weight: bold;
+  content: "[beforeで挿入!]"
+}
+
+.after-text::after {
+  color: red;
+  font-weight: bold;
+  content: "[afterで挿入!]"
+}
